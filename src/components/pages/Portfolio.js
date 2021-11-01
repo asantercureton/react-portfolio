@@ -19,6 +19,23 @@ export default class Porfolio extends Component {
                                 </a>
                                 <div className="cardTitle">GHOSTLY STORIES APP (Express/Node.JS)</div>
 
+                                <a href="https://github.com/asantercureton/employee-tracker">
+                                    <img className="image" src={`${process.env.PUBLIC_URL}/assets/images/employee-tracker.jpg`} alt="/" width="300" height="auto" />
+                                </a>
+                                <div className="cardTitle">EMPLOYEE TRACKER (Node.JS)</div>
+                                <a href="https://github.com/asantercureton/note-taker-app">
+                                    <img className="image" src={`${process.env.PUBLIC_URL}/assets/images/note-taker.jpg`} alt="/" width="300" height="auto" />
+                                </a>
+                                <div className="cardTitle">NOTE TAKER (Express/Node.JS)</div>
+                                <a href="https://github.com/asantercureton/e-commerce-backend">
+                                    <img className="image" src={`${process.env.PUBLIC_URL}/assets/images/e-commerce-npm-run-watch.jpg`} alt="/" width="300" height="auto" />
+                                </a>
+                                <div className="cardTitle">E-COMMERCE BACKEND (Express.JS/Sequelize)</div>
+                                <a href="https://github.com/asantercureton/weather-dashboard">
+                                    <img className="image" src={`${process.env.PUBLIC_URL}/assets/images/weather-dashboard.jpg`} alt="/" width="300" height="auto" />
+                                </a>
+                                <div className="cardTitle">WEATHER DASHBOARD (One Call API/Bootstrap)</div>
+
 
 
                                 <a href="https://github.com/asantercureton">
