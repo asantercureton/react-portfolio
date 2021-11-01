@@ -42,17 +42,42 @@ border-radius: 200px;
 
 .contactLinks {
   font-size: 150%;
+  margin-left: 15px;
 }
 
+
 img:hover {
-box-shadow: 0 0 50px rgb(255, 219, 120);
+box-shadow: 0 0 50px rgb(116, 255, 82);
 }
 
 .cardTitle {
-  font-size: 200%;
+  font-size: 125%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: whitesmoke;
   text-shadow: 0 0 15px rgb(0, 63, 5);
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+
+.image:hover {
+  transform: scale(1.15);
+  transition: .5s ease;
+}
+
+.proCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 15px;
 }
 
 a {
@@ -107,7 +132,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 25px;
-  color: black;
+  color: rgba(255, 255, 255, 0.411);
   font-size: 115%;
   margin-top: 15px;
 }
