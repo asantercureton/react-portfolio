@@ -33,7 +33,7 @@ Run npm start to intiate the REACT portfolio application.
 ## Screenshots
 Below is a screenshot of the project:
 
-![Image of Home](./src/assets/images/react-portfolio-home.jpg)
+![Image of HomePage](./src/assets/images/react-portfolio-home.jpg)
 
 ![Image of AboutMe](./src/assets/images/react-portfolio-aboutme.jpg)
 
