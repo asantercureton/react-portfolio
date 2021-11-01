@@ -14,6 +14,9 @@ export default class ContactMe extends Component {
           <div>
             <a href="https://www.linkedin.com/in/asantercureton">Linkedin</a>
           </div>
+          <div>
+            <a href="https://www.instagram.com/thecarolinacure/">Instagram</a>
+          </div>
         </article>
       </section>
     );
