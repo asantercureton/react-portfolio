@@ -4,10 +4,7 @@ export default class ContactMe extends Component {
     return (
       <section id="contactMe">
         <h2>Contact</h2>
-        <article>
-          <div>
-            <a href="/">980.257.3964</a>
-          </div>
+        <article className="contactLinks">
           <div>
             <a href="mailto:asantercureton@gmail.com">Gmail</a>
           </div>

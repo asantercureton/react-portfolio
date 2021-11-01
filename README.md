@@ -23,11 +23,11 @@ Designed a professional personal portfolio using React.
 [Heroku Link](https://react-portfolio-10232021.herokuapp.com/)
 
 ## Installation
-Run npm install at root of "my-app" directory.
+Run npm install.
 
 
 ## Instructions
-Run npm start to intiate react display in the browser.
+Run npm start to intiate React portfolio display in the browser.
 
 
 ## Screenshots
