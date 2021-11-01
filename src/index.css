@@ -35,6 +35,21 @@ header {
   text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
+.nav > a {
+  padding: 10px;
+}
+
+.nav > a:hover {
+  color: rgb(255, 208, 0);
+}
+
+.nav > a.selected {
+  color: rgb(255, 72, 0);
+  text-decoration: underline;
+}
+
+
+
 img {
   box-shadow: 0 0 25px rgb(255, 208, 0);
   border-radius: 200px;
@@ -131,10 +146,9 @@ transition: .5s ease;
 
 a {
   color: whitesmoke;
-  padding: 15px;
 }
 
-a:hover {
+a:hover, a:active {
   color: rgb(255, 208, 0);
   text-decoration: none;
   cursor: pointer;

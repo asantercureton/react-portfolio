@@ -7,7 +7,7 @@ export default class Header extends Component {
                     <a href="/">
                         <h1 className="headerTitle">Hello, I am Asanté</h1>
                     </a>
-                    <nav>
+                    <nav className="nav">
                         <a href="/aboutme">About Me</a>
                         <a href="/portfolio">Work</a>
                         <a href="/contactme">Contact Me</a>

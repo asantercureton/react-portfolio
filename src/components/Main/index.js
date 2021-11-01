@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '../Header';
 import AboutMe from '../pages/AboutMe';
 import Portfolio from '../pages/Portfolio';
 import ContactMe from '../pages/ContactMe';
 import Resume from '../pages/Resume';
 import Footer from '../Footer';
-import Welcome from '../pages/Welcome';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function Main() {
@@ -16,7 +15,7 @@ function Main() {
         <Header  />
         {/* {renderContent()} */}
         <Route exact path="/">
-          <Welcome />
+          <AboutMe />
         </Route>
         <Route exact path="/aboutme">
           <AboutMe />
