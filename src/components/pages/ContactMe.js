@@ -12,7 +12,7 @@ export default class ContactMe extends Component {
             <a href="https://github.com/asantercureton">Github</a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/asante-cureton-aaa8974a">Linkedin</a>
+            <a href="https://www.linkedin.com/in/asantercureton">Linkedin</a>
           </div>
         </article>
       </section>

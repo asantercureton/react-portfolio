@@ -9,7 +9,7 @@ export default class AboutMe extends Component {
                         <section >
                             <article>
                                 <h2 className="aboutH2">About Me</h2>
-                                <p className="aboutP">I am an Engineering Grad of NC State University, where I also played D-1 Football for the Wolfpack. I have experience in web design (REACT, CSS and Front-End Javascript), a great understanding of the MERN Stack for Full-Stack Web Development, along with skillsets acquired via working with Controls and PLCs. In my free time, I love painting and writing family books that provide positive energy and spiritual growth.</p>
+                                <p className="aboutP">I am an Engineering Grad of NC State University, where I also played D-1 Football for the Wolfpack. I have experience in web design <span>(REACT, CSS and Front-End Javascript)</span>, a great understanding of the <span>MERN Stack for Full-Stack Web Development</span>, along with skillsets acquired via working with Controls and PLCs. In my free time, I love painting and writing family books that provide positive energy and spiritual growth.</p>
                             </article>
                         </section>
                     </div>

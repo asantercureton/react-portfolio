@@ -20,35 +20,57 @@ header {
   justify-content: space-evenly;
 }
 
-header > h1 {
+.headerTitle {
   color: whitesmoke;
   text-shadow: 0 0 5px rgb(255, 72, 0);
 }
 
-img {
-box-shadow: 0 0 25px rgb(255, 208, 0);
-border-radius: 200px;
+.headerTitle {
+  color: whitesmoke;
+  text-shadow: 0 0 5px rgb(255, 72, 0);
+}
 
+.headerTitle:hover {
+  color: rgb(255, 208, 0);
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+img {
+  box-shadow: 0 0 25px rgb(255, 208, 0);
+  border-radius: 200px;
+  padding: 15px;
 }
 
 .article {
   display: flex;
 }
 
+#resume {
+  display: flex;
+  justify-content: center;
+}
+
+#resume > img {
+  padding: 15px;
+}
+
 #contactMe {
   display: flex;
   justify-content: center;
   padding: 10px;
+  height: 75vh;
 }
 
 .contactLinks {
-  font-size: 150%;
+  font-size: 300%;
   margin-left: 15px;
 }
 
 
 img:hover {
 box-shadow: 0 0 50px rgb(116, 255, 82);
+transform: scale(1.10);
+transition: .5s ease;
 }
 
 .cardTitle {
@@ -71,7 +93,7 @@ box-shadow: 0 0 50px rgb(116, 255, 82);
 }
 
 .proCard {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -79,6 +101,32 @@ box-shadow: 0 0 50px rgb(116, 255, 82);
   flex-direction: column;
   margin: auto;
   margin-top: 15px;
+}
+
+#welcome {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+#welcome > h2 {
+  margin-bottom: 75px;
+}
+
+.welcomeCard {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+  height: 40vh;
+}
+
+.imgCard {
+  border-radius: 10px;
+  margin-bottom: 35px;
+  width: 70%;
 }
 
 a {
@@ -97,10 +145,6 @@ a:hover {
   text-align: center;
 }
 
-h2:hover {
-  color: rgb(255, 208, 0);
-  transform: .2 ease-in;
-}
 
 #portfolio {
   padding: 50px;
@@ -111,17 +155,30 @@ h2 {
   color:rgb(255, 72, 0);
   font-size: 300%;
   margin-bottom: 25px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+h2:hover {
+  color: rgb(255, 208, 0);
+  transform: .2 ease-in;
 }
 
 .aboutH2 {
   color:rgb(255, 72, 0);
   margin-top: 25px;
   font-size: 300%;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 
 .aboutP {
-  color: whitesmoke;
+  color: rgba(245, 245, 245, 0.562);
   font-size: 150%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutP:hover {
+  color: rgba(245, 245, 245, 0.76);
+  font-size: 200%;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
