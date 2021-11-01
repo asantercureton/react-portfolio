@@ -33,9 +33,17 @@ Run npm start to intiate the REACT portfolio application.
 ## Screenshots
 Below is a screenshot of the project:
 
+![Image of Home](./src/assets/images/react-portfolio-home.jpg)
+
 ![Image of AboutMe](./src/assets/images/react-portfolio-aboutme.jpg)
 
+![Image of Portfolio](./src/assets/images/react-portfolio-projects.jpg)
+
+![Image of ContactMe](./src/assets/images/react-portfolio-contact.jpg)
+
 ![Image of Mobile View](./src/assets/images/react-portfolio-mobile-view.jpg)
+
+![Image of Mobile View - Portfolio](./src/assets/images/react-portfolio-mobile-view-portfolio.jpg)
 
 ## License
 ![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)

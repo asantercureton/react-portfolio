@@ -4,7 +4,7 @@ export default class Header extends Component {
         return (
             <React.Fragment>
                 <header>
-                    <a href="/welcome">
+                    <a href="/">
                         <h1 className="headerTitle">Hello, I am Asanté</h1>
                     </a>
                     <nav>

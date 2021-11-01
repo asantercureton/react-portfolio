@@ -15,7 +15,7 @@ function Main() {
       <div>
         <Header  />
         {/* {renderContent()} */}
-        <Route exact path="/welcome">
+        <Route exact path="/">
           <Welcome />
         </Route>
         <Route exact path="/aboutme">
